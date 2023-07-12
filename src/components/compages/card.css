@@ -1,0 +1,73 @@
+/* Card.css */
+
+.card {
+  width: 100%;
+  max-width: 300px; /* Imposta la larghezza massima desiderata per la card */
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 1rem;
+}
+
+.my-button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-family: sans-serif; /* Imposta il font Calibri per il pulsante */
+}
+
+.my-button:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 30px);
+  }
+  .custom-card-first {
+    margin-left: 30px;
+  }
+  .card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 200px; /* Regola l'altezza desiderata per l'immagine */
+  }
+}
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
