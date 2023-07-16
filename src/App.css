@@ -1,0 +1,113 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+.footer-navbar {
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Agdasima", sans-serif;
+}
+
+.footer-nav-links {
+  list-style-type: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+.footer-nav-links li {
+  margin: 0 10px;
+}
+
+.footer-nav-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav-links li a:focus,
+.footer-nav-links li a:active {
+  outline: none;
+}
+
+.footer-nav-links li a:focus,
+.footer-nav-links li a:active {
+  outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding-left: 50px; /* Puoi regolare il valore del padding a tuo piacimento */
+  margin-left: 10px; /* Puoi regolare il valore del margin a tuo piacimento */
+  
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.search input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.search button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.ebody{
+padding-left: 30px;
+padding-top: 20px;
+}
+.photodec{
+  text-align: center;
+}
+
+
