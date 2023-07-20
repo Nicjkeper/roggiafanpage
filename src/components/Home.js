@@ -20,9 +20,9 @@ function Home () {
       <Followcnt />
       <h1>Se qualucuno fosse interessato a partecipare ed a contribuire al profilo può fare richiesta qui:
       </h1>
+      <div className="container">
       <Formpartecipazione />
-      <Ads />
-
+      </div>
       </div>
     );
 }

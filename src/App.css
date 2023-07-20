@@ -1,3 +1,13 @@
+/* Codice CSS generale */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Codice CSS per la navbar */
+
 .navbar {
   background-color: #333;
   color: #fff;
@@ -12,19 +22,34 @@
   font-weight: bold;
 }
 
+/* Codice CSS per la search bar */
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px;
+}
+
 .search input[type="text"] {
-  width: 200px;
-  height: 30px;
-  padding: 5px;
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 4px;
 }
 
 .search button {
-  padding: 5px 10px;
-  background-color: #444;
+  background-color: #007bff;
   color: #fff;
   border: none;
+  outline: none;
+  padding: 8px;
   cursor: pointer;
+  font-weight: bold;
 }
+
+/* Codice CSS per il footer */
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
 .footer-navbar {
@@ -63,51 +88,72 @@
 .footer-nav-links li a:active {
   outline: none;
 }
-
-.footer-nav-links li a:focus,
-.footer-nav-links li a:active {
-  outline: none;
-}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* Codice CSS per i titoli */
 
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   padding-left: 50px; /* Puoi regolare il valore del padding a tuo piacimento */
   margin-left: 10px; /* Puoi regolare il valore del margin a tuo piacimento */
-  
-}
-.search {
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-  border-radius: 4px;
-  padding: 8px;
 }
 
-.search input[type="text"] {
-  flex: 1;
-  border: none;
-  outline: none;
-  padding: 4px;
+/* Codice CSS per la galleria di foto */
+
+.ebody {
+  padding-left: 30px;
+  padding-top: 20px;
 }
 
-.search button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  outline: none;
-  padding: 8px;
-  cursor: pointer;
-  font-weight: bold;
-}
-.ebody{
-padding-left: 30px;
-padding-top: 20px;
-}
-.photodec{
+.photodec {
   text-align: center;
 }
+
+/* Media query per il menu laterale sui dispositivi mobili */
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
+  .footer-nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Media query per il mobile */
+
+@media screen and (max-width: 767px) {
+  .button-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .button-style {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .logo-style {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+
+  .text-style {
+    font-size: 18px;
+  }
+}
+}
+
 
 

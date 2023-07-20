@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94ff384c.css",
-    "main.js": "/static/js/main.88d81900.js",
+    "main.css": "/static/css/main.ccd6e0b4.css",
+    "main.js": "/static/js/main.5ffa13a2.js",
     "static/media/image12.jpg": "/static/media/image12.a5e94c33962687bbf2b0.jpg",
     "static/media/madre.jpg": "/static/media/madre.a5e94c33962687bbf2b0.jpg",
     "static/media/image11.jpg": "/static/media/image11.7f4ce853cfe7917b99a3.jpg",
@@ -41,11 +41,11 @@
     "static/media/ig.png": "/static/media/ig.74cf1a082d0a3678a433.png",
     "static/media/tiktokicon.png": "/static/media/tiktokicon.f61d62f01c2f347eec0e.png",
     "index.html": "/index.html",
-    "main.94ff384c.css.map": "/static/css/main.94ff384c.css.map",
-    "main.88d81900.js.map": "/static/js/main.88d81900.js.map"
+    "main.ccd6e0b4.css.map": "/static/css/main.ccd6e0b4.css.map",
+    "main.5ffa13a2.js.map": "/static/js/main.5ffa13a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.94ff384c.css",
-    "static/js/main.88d81900.js"
+    "static/css/main.ccd6e0b4.css",
+    "static/js/main.5ffa13a2.js"
   ]
 }

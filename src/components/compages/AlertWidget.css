@@ -1,34 +1,69 @@
+/* Codice CSS generale */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Codice CSS per la widget di alert */
+
 .alert-widget {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 20px; /* Aggiungi il margine superiore desiderato */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px; /* Aggiungi il margine superiore desiderato */
+
+  /* Regola il testo in modo che si adatti su dispositivi mobili */
+  font-size: 14px;
+}
+
+.alert-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.alert-message {
+  flex: 1;
+}
+
+/* Codice CSS per gli stati di alert */
+
+.alert-widget.success {
+  background-color: #28a745;
+}
+
+.alert-widget.warning {
+  background-color: #ffc107;
+}
+
+.alert-widget.error {
+  background-color: #dc3545;
+}
+
+/* Media query per il mobile */
+
+@media screen and (max-width: 767px) {
+  .alert-widget {
+    font-size: 12px; /* Riduci il testo per dispositivi mobili */
+    padding: 8px; /* Riduci il padding per dispositivi mobili */
   }
-  
+
   .alert-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    width: 16px; /* Riduci le dimensioni dell'icona per dispositivi mobili */
+    height: 16px;
+    margin-right: 8px; /* Riduci il margine destro per dispositivi mobili */
   }
-  
+
   .alert-message {
     flex: 1;
   }
-  
-  .alert-widget.success {
-    background-color: #28a745;
-  }
-  
-  .alert-widget.warning {
-    background-color: #ffc107;
-  }
-  
-  .alert-widget.error {
-    background-color: #dc3545;
-  }
+}
+
   
   
