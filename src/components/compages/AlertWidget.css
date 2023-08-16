@@ -41,6 +41,9 @@ body {
 .alert-widget.warning {
   background-color: #ffc107;
 }
+.alert-widget.news {
+  background-color: #1500ff;
+}
 
 .alert-widget.error {
   background-color: #dc3545;

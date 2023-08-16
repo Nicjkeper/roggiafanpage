@@ -88,12 +88,12 @@ body {
 .footer-nav-links li a:active {
   outline: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fjalla+One&family=Libre+Franklin:wght@700&display=swap');
 
 /* Codice CSS per i titoli */
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-align: left;
   padding-left: 50px; /* Puoi regolare il valore del padding a tuo piacimento */
   margin-left: 10px; /* Puoi regolare il valore del margin a tuo piacimento */
@@ -152,6 +152,7 @@ h1 {
   .text-style {
     font-size: 18px;
   }
+  
 }
 }
 

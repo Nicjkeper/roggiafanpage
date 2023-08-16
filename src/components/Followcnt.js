@@ -1,8 +1,6 @@
-import React from "react";
-
 function Followcnt () {
     return(
-        <div className="Counter" style={{marginLeft: '300px'}}>
+        <div className="Counter" style={{marginLeft: '30px'}}>
         <h1>Queste sono le persone che attualmente seguono il profilo </h1>
     <iframe
       title="Counter di Roggia Fanpage"
@@ -16,3 +14,4 @@ function Followcnt () {
     );
 }
 export default Followcnt;
+

@@ -1,0 +1,6 @@
+/* src/font.css */
+@font-face {
+    font-family: 'ryflag1_1';
+    src: url('./compages/ryflag1_1.ttf') format('truetype');
+    /* Aggiungi altre definizioni di formato per il supporto di diversi tipi di file di font, se necessario */
+  }
