@@ -15,6 +15,6 @@ git commit -m "main"
 git remote add origin https://github.com/Nicjkeper/roggiafanpage.git
 
 :: Passaggio 5: Esegui il push dei file
-git push -u origin alpha-release
+git push -u origin master
 
 endlocal
