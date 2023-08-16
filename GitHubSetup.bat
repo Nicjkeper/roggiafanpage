@@ -9,12 +9,12 @@ git init
 git add --all
 
 :: Passaggio 3: Esegui il commit dei file
-git commit -m "Beta"
+git commit -m "main"
 
 :: Passaggio 4: Aggiungi la repository remota
 git remote add origin https://github.com/Nicjkeper/roggiafanpage.git
 
 :: Passaggio 5: Esegui il push dei file
-git push -u origin beta
+git push -u origin alpha-release
 
 endlocal
